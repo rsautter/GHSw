@@ -9,6 +9,6 @@ setup(
     keywords='histogram GHS statistic',
     description=u'Geometric Histogram of Separation',
     packages=['ghsw'],
-	package_dir={'': 'ghsw'},
-	packages=find_packages(where='ghsw')
+    package_dir={'': 'ghsw'},
+    packages=find_packages(where='ghsw')
 )
