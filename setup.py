@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import find_packages, setup
 
 setup(
     name='GHSw',
@@ -8,5 +8,5 @@ setup(
     author_email='rubens.sautter@gmail.com',
     keywords='histogram GHS statistic',
     description=u'Geometric Histogram of Separation',
-    package_dir={'': 'ghsw'}
+     packages=find_packages()
 )

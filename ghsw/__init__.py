@@ -1,1 +1,2 @@
-import ghsw
+from .ghsw import *
+from .distanceMetrics import *
