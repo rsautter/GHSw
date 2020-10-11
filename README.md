@@ -3,7 +3,12 @@
 This technique geometrical distance between two empirical histograms, this algorithm is inspired on box-counting.
 
 ## Install
-  pip install git+https://github.com/rsautter/GHSw
+
+    pip install git+https://github.com/rsautter/GHSw
+
+Colab:
+
+    !pip install git+https://github.com/rsautter/GHSw
   
 ## Examples
   Some study cases are presented in notebook folder.
