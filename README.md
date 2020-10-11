@@ -9,6 +9,17 @@ This technique geometrical distance between two empirical histograms, this algor
 Colab:
 
     !pip install git+https://github.com/rsautter/GHSw
+    
+## Usage
+
+    ghsw(data1,data2,typeSum=2,onlyGHS=False)
+    
+  * data1, data2 - set of points 
+  * typeSum:
+    * 1 - w1 = sqrt(BCA)/BCA
+	* 2 - w2 =  2 * w1
+	* 3 - w2 = BCL
+  * onlyGHS - return BCA and BCL?
   
 ## Examples
   Some study cases are presented in notebook folder.
