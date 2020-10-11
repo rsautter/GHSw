@@ -1,9 +1,13 @@
-# GHS - Geometric Histogram Separation
+# GHSw - Geometric Histogram Separation
 
 This technique geometrical distance between two empirical histograms, this algorithm is inspired on box-counting.
 
-Some study cases are presented in notebook folder.
-
+## Install
+  pip install git+https://github.com/rsautter/GHSw
+  
+## Examples
+  Some study cases are presented in notebook folder.
+  
 ## Log
 Oct. 11, 2020 - Changed name, added some examples\
 Jul. 08, 2019 - Kullback-Leibler distance and Hellinger distance are now available for raw data\
