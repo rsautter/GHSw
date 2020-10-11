@@ -133,8 +133,8 @@ def ghsw(data1,data2,typeSum=2,onlyGHS=False):
 if __name__ == "__main__":
 	'''
 	Call structres:
-		python ghs.py data1.csv data2.csv type parameter
-		python ghs.py data1.csv data2.csv type		
+		python ghsw.py data1.csv data2.csv type parameter
+		python ghsw.py data1.csv data2.csv type		
  	'''
 	d1 = pd.read_csv(sys.argv[1]).dropna()
 	d2 = pd.read_csv(sys.argv[2]).dropna()

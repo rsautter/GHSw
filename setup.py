@@ -8,5 +8,5 @@ setup(
     author_email='rubens.sautter@gmail.com',
     keywords='histogram GHS statistic',
     description=u'Geometric Histogram of Separation',
-    install_requires=[],
+    packages=['ghsw','distanceMetrics']
 )
