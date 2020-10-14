@@ -73,7 +73,7 @@ def ghs(data1, data2,onlyGHS=False):
 	dy = numpy.minimum(hist1,hist2)
 
 	# ao is the relative area  
-	ao = numpy.sum(dy*dx)
+	ao = numpy.sum(dy)
 
 	a_height = numpy.max(hist1)
 	b_height = numpy.max(hist2)
