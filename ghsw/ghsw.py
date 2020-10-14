@@ -65,8 +65,8 @@ def ghs(data1, data2,onlyGHS=False):
 	hist1, bins1 = numpy.histogram(data1,bins=n,range=rnge)
 	hist2, bins2 = numpy.histogram(data2,bins=n,range=rnge)
 	
-	bins1 = (bins1-numpy.min(bins1))/(numpy.max(bins1)-numpy.min(bins1))
-	bins2 = (bins2-numpy.min(bins2))/(numpy.max(bins2)-numpy.min(bins2))
+	hist1 = (hist1-numpy.min(hist1))/(numpy.max(hist1)-numpy.min(hist1))
+	hist2 = (hist2-numpy.min(hist2))/(numpy.max(hist2)-numpy.min(hist2))
 
 	# since both histograms have same bins, dy is the intersection:
 	dx = (rnge[1]-rnge[0])/n
@@ -112,8 +112,8 @@ def ghsw(data1,data2,typeSum=2,onlyGHS=False):
 	hist1, bins1 = numpy.histogram(data1,bins=n,range=rnge)
 	hist2, bins2 = numpy.histogram(data2,bins=n,range=rnge)
 	
-	bins1 = (bins1-numpy.min(bins1))/(numpy.max(bins1)-numpy.min(bins1))
-	bins2 = (bins2-numpy.min(bins2))/(numpy.max(bins2)-numpy.min(bins2))
+	hist1 = (hist1-numpy.min(hist1))/(numpy.max(hist1)-numpy.min(hist1))
+	hist2 = (hist2-numpy.min(hist2))/(numpy.max(hist2)-numpy.min(hist2))
 
 	# since both histograms have same bins, dy is the intersection:
 	dx = (rnge[1]-rnge[0])/n
