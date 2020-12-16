@@ -114,6 +114,8 @@ def ghsw(data1,data2,typeSum=2,onlyGHS=False):
 	
 	hist1 = (hist1-numpy.min(hist1))/(numpy.max(hist1)-numpy.min(hist1))
 	hist2 = (hist2-numpy.min(hist2))/(numpy.max(hist2)-numpy.min(hist2))
+	hist1 = hist1/numpy.sum(hist1)
+	hist2 = hist2/numpy.sum(hist2)
 
 	# since both histograms have same bins, dy is the intersection:
 	dx = (rnge[1]-rnge[0])/n
